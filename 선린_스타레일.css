@@ -9,4 +9,12 @@ a:visited { color:black; text-decoration: none; }
 .sub{border-collapse: collapse; border: 3px solid darkblue}
 .sname{color:white;font-weight: bold;text-align: center; background-color: darkblue;}
 .new{background-image: linear-gradient(to right, yellow, rgb(185, 158, 5), rgb(148, 110, 13)); -webkit-background-clip: text; color:transparent; font-weight: bold; text-align: center;}
-.Tiern{background-image: linear-gradient(to right, yellow, gold, goldenrod); color:bla; font-weight: bold; text-align: center;}
+.Tiern{background-image: linear-gradient(to right, yellow, gold, goldenrod); color:black; font-weight: bold; text-align: center;}
+.TierSS{background-image: linear-gradient(to right, red,darkred,firebrick); color:white; font-weight: bold; text-align: center;}
+.TierS{background-image: linear-gradient(to right, yellow,orange,gold); color:white; font-weight: bold; text-align: center;}
+.TierA{background-image: linear-gradient(to right, purple,indigo,darkviolet); color:white; font-weight: bold; text-align: center;}
+.TierB{background-image: linear-gradient(to right, forestgreen, darkgreen,green); color:white; font-weight: bold; text-align: center;}
+.nameSS{background-image: linear-gradient(to right,red,darkred,firebrick ); -webkit-background-clip: text; color:transparent; font-weight: bold; text-align: center;}
+.nameS{background-image: linear-gradient(to right, goldenrod,orange,gold); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
+.nameA{background-image: linear-gradient(to right, purple,indigo,darkviolet); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
+.nameB{background-image: linear-gradient(to right, forestgreen, darkgreen,green); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
