@@ -1,5 +1,5 @@
 hr{color: black;border:solid 0px;}
-.main{border-collapse: collapse; border: 2px solid #444444;}
+.main{border-collapse: collapse; border: 2px solid #444444; margin: auto;}
 .Tier{color:white;font-weight: bold;text-align: center;}
 .name{color:black;font-weight: bold;text-align: center;}
 .titlename{color:white;font-weight: bold;text-align: center;}
