@@ -16,6 +16,7 @@ hr{color: black;border:solid 0px;}
 .nameS{background-image: linear-gradient(to right, goldenrod,orange,gold); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
 .nameA{background-image: linear-gradient(to right, purple,indigo,darkviolet); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
 .nameB{background-image: linear-gradient(to right, forestgreen, darkgreen,green); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
+#pickup{background-image: linear-gradient(to right, yellow, goldenrod,gold,lightyellow); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
 .a img {transition: all 0.2s linear; background-color:black;}
 .a:hover img {transform: scale(1.4);}
 .a{width: auto; margin: auto; overflow: hidden;}
