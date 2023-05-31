@@ -12,7 +12,7 @@ hr{color: black;border:solid 0px;}
 .TierS{background-image: linear-gradient(to right, yellow,orange,gold); color:white; font-weight: bold; text-align: center;}
 .TierA{background-image: linear-gradient(to right, purple,indigo,darkviolet); color:white; font-weight: bold; text-align: center;}
 .TierB{background-image: linear-gradient(to right, forestgreen, darkgreen,green); color:white; font-weight: bold; text-align: center;}
-.nameSS{background-image: linear-gradient(to right,red,darkred,firebrick ); -webkit-background-clip: text; color:transparent; font-weight: bold; text-align: center;}
+.nameSS{background-image: linear-gradient(to right,red,darkred,firebrick); -webkit-background-clip: text; color:transparent; font-weight: bold; text-align: center;}
 .nameS{background-image: linear-gradient(to right, goldenrod,orange,gold); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
 .nameA{background-image: linear-gradient(to right, purple,indigo,darkviolet); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
 .nameB{background-image: linear-gradient(to right, forestgreen, darkgreen,green); color:transparent;-webkit-background-clip: text; font-weight: bold; text-align: center;}
