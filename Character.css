@@ -1,1 +1,3 @@
-.naming{background-image: linear-gradient(to right,blue,lightblue,aqua);-webkit-background-clip: text; text-align: center; color:transparent}
+.naming{background-image: linear-gradient(35deg, #30cfd0 0%, #330867 100%);-webkit-background-clip: text; text-align: center; color:transparent}
+.sname{font-weight: bold; text-align: center;}
+.uname{font-weight: bold; text-align: center; inline-size: auto;}
