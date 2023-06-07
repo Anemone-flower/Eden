@@ -6,7 +6,7 @@ hr{color: black;border:solid 0px;}
 .sub{ border: 3px solid darkblue}
 .sname{color:white;font-weight: bold;text-align: center; background-color: darkblue;}
 .simg{text-align: center;}
-.new{background-image: linear-gradient(to right, yellow, rgb(185, 158, 5), rgb(148, 110, 13)); -webkit-background-clip: text; color:transparent; font-weight: bold; text-align: center;}
+.new{background-image: linear-gradient(to right, #667eea,#764ba2); -webkit-background-clip: text; color:transparent; font-weight: bold; text-align: center;}
 .Tiern{background-image: linear-gradient(to right, yellow, gold, goldenrod); color:black; font-weight: bold; text-align: center;}
 .TierSS{background-image: linear-gradient(to right, red,darkred,firebrick); color:white; font-weight: bold; text-align: center;}
 .TierS{background-image: linear-gradient(to right, yellow,orange,gold); color:white; font-weight: bold; text-align: center;}
