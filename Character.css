@@ -1,7 +1,77 @@
-table{border: 2px solid black; border-collapse: collapse;}
-img{border: 0.5px solid royalblue;}
-.제레{background-image: linear-gradient(35deg, #30cfd0 0%, #330867 100%);-webkit-background-clip: text; text-align: center; color:transparent;font-weight: bold;}
-.양자{background-image: linear-gradient(35deg, #667eea 0%, #6a11cb 100%);-webkit-background-clip: text; text-align: center; color:transparent;font-weight: bold;}
-.수렵{background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);-webkit-background-clip: text;text-align: center;color: transparent;font-weight: bold;}
-.sname{font-weight: bold; text-align: center;}
-.uname{font-weight: bold; text-align: center; inline-size: auto; background-color: royalblue; -webkit-background-clip: text; text-align: center; font-weight: bold;}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+#imgin {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.제레 {
+  background-image: linear-gradient(35deg, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  text-align: center;
+  color: transparent;
+  font-weight: bold;
+}
+.양자 {
+  background-image: linear-gradient(35deg, #667eea 0%, #6a11cb 100%);
+  -webkit-background-clip: text;
+  text-align: center;
+  color: transparent;
+  font-weight: bold;
+}
+.수렵 {
+  background-image: linear-gradient(
+    to right,
+    #e4afcb 0%,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #e2c58b 30%,
+    #c2ce9c 64%,
+    #7edbdc 100%
+  );
+  -webkit-background-clip: text;
+  text-align: center;
+  color: transparent;
+  font-weight: bold;
+}
+.sname {
+  background-image: linear-gradient(35deg, #667eea 0%, #330867 100%);
+  -webkit-background-clip: text;
+  text-align: center;
+  color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
+.uname {
+  font-weight: bold;
+  text-align: center;
+  inline-size: auto;
+  background-color: royalblue;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-weight: bold;
+}
+.광추 {
+  border: 5px solid;
+  border-image: linear-gradient(35deg, #00dbde 0%, #fc00ff 100%);
+  border-image-slice: 1;
+}
+.starshape {
+  background-image: linear-gradient(35deg, #f83600 0%, #f9d423 100%);
+  -webkit-background-clip: text;
+  text-align: center;
+  color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
+.only {
+  background-image: linear-gradient(35deg, #00dbde 0%, #fc00ff 100%);
+  -webkit-background-clip: text;
+  text-align: center;
+  color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
