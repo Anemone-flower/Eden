@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
 
+/*
+@media(max-width:1080px){
+  .container{
+      width: 100vh;
+      height: 200%;
+      background-size: 200%;
+    }  
+}
+*/
+
 *{
   margin: 0;
   padding: 0;
