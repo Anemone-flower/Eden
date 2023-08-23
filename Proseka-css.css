@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: fadein 1.0s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+/* container는 배경을 의미 */
+.container{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0,0,0,0.8)), url(Images/Proseka-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Grandiflora One', serif;
+}
+
+/* header 영역은 화면 상단의 Design 로고글자와 메뉴바를 포함한다.  */
+.container .header{
+  font-family: 'Grandiflora One', serif;
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* 자식 요소에 대한 배치 방법을 ... */
+}
+
+/* 화면 왼쪽 상단 글자 로고 스타일 */
+.container .header h2 a{
+  text-decoration: none;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color:transparent;
+  -webkit-background-clip: text;
+  font-family: 'Grandiflora One', serif;
+}
+
+/* 메뉴요소에 대한 스타일링(배치) */
+.container .nav ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+/* 메뉴요소에 대한 스타일링(글꼴) */
+.container .nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+/* 메뉴요소에 대한 스타일링(마우스이벤트_글자색 변경) */
+.container .nav ul li a:hover{
+  text-decoration: none;
+  color: skyblue; 
+}
+
+.container .hero{ 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Diphylleia', serif;
+} 
+
+.container .hero h2{
+  font-size: 60px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  color:transparent;
+  -webkit-background-clip: text;
+}
+
+.container .hero p{
+background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+color:transparent;
+-webkit-background-clip: text;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.container .hero button{
+  background: none;
+  border : 2px solid gray;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  outline: none;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.container .hero button:hover{
+  background-color: darkslategray;
+}
+
+.hero h2{
+  text-decoration: none;
+  color: white;
+  font: bold;
+  font-family: 'Diphylleia', serif;
+}
+
+.hero p{
+  text-decoration: none;
+  color: white;
+  font: bold;
+  font-family: 'Diphylleia', serif;
+}
+
+.hero button{
+  text-decoration: none;
+  color: white;
+  font: bold;
+  font-family: 'Diphylleia', serif;
+}
+
+#sliding-maintext {
+  animation: change 1.5s ease forwards;
+  animation-delay: 0.25s;
+}
+#sliding-text{
+    animation: change-1 1.25s ease forwards;
+    animation-delay: 0.99s;
+    visibility: hidden;
+
+}
+@keyframes change {
+    from {
+      transform: translateX(100%);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes change-1 {
+    from {
+      transform: translateX(100%);
+      visibility: hidden;
+    }
+  
+    to {
+      transform: translateX(0%);
+      visibility: visible;
+    }
+  }
+
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
