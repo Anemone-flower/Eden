@@ -10,17 +10,15 @@
   -o-animation: fadein 1s; /* Opera */
 }
 
-/* container는 배경을 의미 */
 .container{
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0,0,0,0.8)), url(Images/Proseka-background.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0,0,0,0.8)), url(Images/Proseka-main.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: 'Grandiflora One', serif;
 }
 
-/* header 영역은 화면 상단의 Design 로고글자와 메뉴바를 포함한다.  */
 .container .header{
   font-family: 'Grandiflora One', serif;
   width: 80%;
@@ -28,10 +26,8 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  /* 자식 요소에 대한 배치 방법을 ... */
 }
 
-/* 화면 왼쪽 상단 글자 로고 스타일 */
 .container .header h2 a{
   text-decoration: none;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -40,17 +36,16 @@
   font-family: 'Grandiflora One', serif;
 }
 
-/* 메뉴요소에 대한 스타일링(배치) */
 .container .nav ul li{
   display: inline-block;
   margin: 0 10px;
 }
-/* 메뉴요소에 대한 스타일링(글꼴) */
+
 .container .nav ul li a{
   text-decoration: none;
   color: white;
 }
-/* 메뉴요소에 대한 스타일링(마우스이벤트_글자색 변경) */
+
 .container .nav ul li a:hover{
   text-decoration: none;
   color: skyblue; 
