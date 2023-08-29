@@ -10,8 +10,7 @@
     -webkit-animation: fadein 1s; /* Safari and Chrome */
     -o-animation: fadein 1s; /* Opera */
   }
-  
-  /* container는 배경을 의미 */
+
   .container{
     width: 100%;
     height: 100vh;
@@ -20,7 +19,6 @@
     background-size: 100%;
   }
   
-  /* header 영역은 화면 상단의 Design 로고글자와 메뉴바를 포함한다.  */
   .container .header{
     font-family: 'Grandiflora One', serif;
     width: 80%;
@@ -28,31 +26,30 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* 자식 요소에 대한 배치 방법을 ... */
   }
   
-  /* 화면 왼쪽 상단 글자 로고 스타일 */
   .container .header h2 a {
     text-decoration: none;
     color: white;
     font-family: 'Diphylleia', serif;
   }
   
-  /* 메뉴요소에 대한 스타일링(배치) */
   .container .nav ul li{
     display: inline-block;
     margin: 0 10px; 
   }
-  /* 메뉴요소에 대한 스타일링(글꼴) */
+
   .container .nav ul li a{
     text-decoration: none;
     color: white;
     font-family: 'Diphylleia', serif;
   }
-  /* 메뉴요소에 대한 스타일링(마우스이벤트_글자색 변경) */
+  
   .container .nav ul li a:hover{
     text-decoration: none;
-    color: skyblue; 
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    color: transparent;
+    -webkit-background-clip: text;
   }
   
   .container .hero{ 
