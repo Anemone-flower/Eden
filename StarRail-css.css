@@ -17,11 +17,11 @@
     url(Images/StarRail-back.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  font-family: "Grandiflora One", serif;
+  font-family: "Diphylleia", serif;
 }
 
 .container .header {
-  font-family: "Grandiflora One", serif;
+  font-family: "Diphylleia", serif;
   width: 80%;
   height: 80px;
   margin: 0 auto;
@@ -34,7 +34,7 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: transparent;
   -webkit-background-clip: text;
-  font-family: "Grandiflora One", serif;
+  font-family: "Diphylleia", serif;
 }
 
 .container .nav ul li {
