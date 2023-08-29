@@ -49,7 +49,9 @@
 
 .container .nav ul li a:hover {
   text-decoration: none;
-  color: skyblue;
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .container .hero {
