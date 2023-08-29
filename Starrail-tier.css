@@ -1,147 +1,344 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&display=swap");
+
+* {
   margin: 0;
   padding: 0;
+  font-family: "Diphylleia", serif;
 }
 
+table {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container .header .slide-in table {
+  margin-top: 25px;
+}
+
+.titlename {
+  font-family: "Diphylleia", serif;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.un {
+  background-color: black;
+}
 
 hr {
-    color: black;
-    border: solid 0px;
-  }
-  .main {
-    border-collapse: collapse;
-    border: 2px solid #444444;
-    margin: auto;
-  }
-  .Tier {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-  }
-  .name {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-  }
-  .titlename {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-  }
-  .sub {
-    border: 3px solid darkblue;
-  }
-  .sname {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    background-color: darkblue;
-  }
-  .simg {
-    text-align: center;
-  }
-  .new {
-    background-image: linear-gradient(to right, #667eea, #764ba2);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: bold;
-    text-align: center;
-  }
-  .Tiern {
-    background-image: linear-gradient(to right, yellow, gold, goldenrod);
-    color: black;
-    font-weight: bold;
-    text-align: center;
-  }
-  .TierSS {
-    background-image: linear-gradient(to right, red, darkred, firebrick);
-    color: white;
-    font-weight: bold;
-    text-align: center;
-  }
-  .TierS {
-    background-image: linear-gradient(to right, yellow, orange, gold);
-    color: white;
-    font-weight: bold;
-    text-align: center;
-  }
-  .TierA {
-    background-image: linear-gradient(to right, purple, indigo, darkviolet);
-    color: white;
-    font-weight: bold;
-    text-align: center;
-  }
-  .TierB {
-    background-image: linear-gradient(to right, forestgreen, darkgreen, green);
-    color: white;
-    font-weight: bold;
-    text-align: center;
-  }
-  .nameSS {
-    background-image: linear-gradient(to right, red, darkred, firebrick);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: bold;
-    text-align: center;
-  }
-  .nameS {
-    background-image: linear-gradient(to right, goldenrod, orange, gold);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-weight: bold;
-    text-align: center;
-  }
-  .nameA {
-    background-image: linear-gradient(to right, purple, indigo, darkviolet);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-weight: bold;
-    text-align: center;
-  }
-  .nameB {
-    background-image: linear-gradient(to right, forestgreen, darkgreen, green);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-weight: bold;
-    text-align: center;
-  }
-  #pickup {
-    background-image: linear-gradient(
-      to right,
-      yellow,
-      goldenrod,
-      gold,
-      lightyellow
-    );
-    color: transparent;
-    -webkit-background-clip: text;
-    font-weight: bold;
-    text-align: center;
-  }
-  .a img {
-    transition: all 0.2s linear;
-    background-color: black;
-  }
-  .a:hover img {
-    transform: scale(1.4);
-  }
-  .a {
-    width: auto;
-    margin: auto;
-    overflow: hidden;
+  color: black;
+  border: solid 0px;
+}
+.main {
+  border-collapse: collapse;
+  border: 2px solid #444444;
+  margin: auto;
+}
+.Tier {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.name {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.titlename {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.sub {
+  border: 3px solid darkblue;
+}
+.sname {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: darkblue;
+}
+.simg {
+  text-align: center;
+}
+.new {
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
+.Tiern {
+  background-image: linear-gradient(to right, yellow, gold, goldenrod);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.TierSS {
+  background-image: linear-gradient(to right, red, darkred, firebrick);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.TierS {
+  background-image: linear-gradient(to right, yellow, orange, gold);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.TierA {
+  background-image: linear-gradient(to right, purple, indigo, darkviolet);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.TierB {
+  background-image: linear-gradient(to right, forestgreen, darkgreen, green);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.nameSS {
+  background-image: linear-gradient(to right, red, darkred, firebrick);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
+.nameS {
+  background-image: linear-gradient(to right, goldenrod, orange, gold);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  text-align: center;
+}
+.nameA {
+  background-image: linear-gradient(to right, purple, indigo, darkviolet);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  text-align: center;
+}
+.nameB {
+  background-image: linear-gradient(to right, forestgreen, darkgreen, green);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  text-align: center;
+}
+#pickup {
+  background-image: linear-gradient(
+    to right,
+    yellow,
+    goldenrod,
+    gold,
+    lightyellow
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  text-align: center;
+}
+.a img {
+  transition: all 0.2s linear;
+  background-color: black;
+}
+.a:hover img {
+  transform: scale(1.4);
+}
+.a {
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slide-in {
+  animation: change 0.5s ease forwards;
+}
+
+@keyframes change {
+  from {
+    transform: translateX(100%);
+    visibility: visible;
   }
 
-  .slide-in {
-    animation: change 0.5s ease forwards;
+  to {
+    transform: translateX(0%);
   }
-  
-  @keyframes change {
-    from {
-      transform: translateX(100%);
-      visibility: visible;
-    }
-  
-    to {
-      transform: translateX(0%);
-    }
+}
+
+.container {
+  width: 100%;
+  height: 120vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.8)),
+    url(Images/StarRail-back.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  font-family: "Diphylleia", serif;
+}
+
+.container .header {
+  font-family: "Diphylleia", serif;
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .header h2 a {
+  text-decoration: none;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Diphylleia", serif;
+}
+
+.container .nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container .nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container .nav ul li a:hover {
+  text-decoration: none;
+  color: skyblue;
+}
+
+.container .hero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: "Diphylleia", serif;
+}
+
+.container .hero h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.container .hero p {
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.container .hero button {
+  background: none;
+  border: 2px solid gray;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.container .hero button:hover {
+  background-color: darkslategray;
+}
+
+.hero h2 {
+  text-decoration: none;
+  color: white;
+  font: bold;
+  font-family: "Diphylleia", serif;
+}
+
+.hero p {
+  text-decoration: none;
+  color: white;
+  font: bold;
+  font-family: "Diphylleia", serif;
+}
+
+.hero button {
+  text-decoration: none;
+  color: white;
+  font: bold;
+  font-family: "Diphylleia", serif;
+}
+
+@keyframes change {
+  from {
+    transform: translateX(100%);
+    visibility: visible;
   }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes change-1 {
+  from {
+    transform: translateX(100%);
+    visibility: hidden;
+  }
+
+  to {
+    transform: translateX(0%);
+    visibility: visible;
+  }
+}
+
+@keyframes fadeing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
