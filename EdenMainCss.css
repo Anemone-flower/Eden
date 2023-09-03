@@ -33,6 +33,14 @@
     color: white;
     font-family: 'Diphylleia', serif;
   }
+
+  .container .header h2 a:hover {
+    text-decoration: none;
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Diphylleia', serif;
+  }
   
   .container .nav ul li{
     display: inline-block;
